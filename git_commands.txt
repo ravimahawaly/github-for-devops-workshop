@@ -1,0 +1,13 @@
+sudo git init
+sudo git status
+sudo git add testing.py
+sudo git rm --cached testing.py
+sudo git status
+sudo git add .
+sudo git status
+sudo git commit -m "added test files."
+sudo git status
+rm testing.py
+sudo git status
+sudo git restore testing.py
+sudo git status
