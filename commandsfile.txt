@@ -1,16 +1,23 @@
-sudo git init
-sudo git status
-sudo git add testing.py
-sudo git rm --cached testing.py
-sudo git status
-sudo git add .
-sudo git status
-sudo git commit -m "added test files."
-sudo git status
-rm testing.py
-sudo git status
-sudo git restore testing.py
-sudo git status
+ sudo git status
+ sudo git add python1.py
+ sudo git status
+ sudo git restore --staged python1.py
+ sudo git status
+ sudo git add .
+ sudo git status
+ sudo git commit -m "added my python files"
+ sudo git status
+ ls -a
+ sudo rm python1.py
+ ls
+ sudo git status
+ sudo git restore python1.py
+ sudo git status
+ ls
+ sudo git status
+ ls
+ sudo git add .
+ sudo git status
 
 723  sudo git status
   724  sudo git restore python1.py
@@ -44,4 +51,3 @@ sudo git status
   753  sudo git push origin master
   754  ls
   755  history
-
