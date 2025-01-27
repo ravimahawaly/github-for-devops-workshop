@@ -1,0 +1,20 @@
+ sudo git status
+ sudo git add python1.py
+ sudo git status
+ sudo git restore --staged python1.py
+ sudo git status
+ sudo git add .
+ sudo git status
+ sudo git commit -m "added my python files"
+ sudo git status
+ ls -a
+ sudo rm python1.py
+ ls
+ sudo git status
+ sudo git restore python1.py
+ sudo git status
+ ls
+ sudo git status
+ ls
+ sudo git add .
+ sudo git status
