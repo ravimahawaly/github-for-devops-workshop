@@ -121,5 +121,22 @@ sudo git status
 
        sudo flake8 $files
         :wq!
-  
+##check hooks file in the hooks branch
+
+  920  ls
+  921  vim demo.py
+       def my_function():
+
+    a = 5
+    return a + password
+
+
+my_function()
+
+:wq!
+
+  922  git add demo.py
+  923  vim .git/hooks/pre-commit
+  924  sudo git add demo.py
+  925  sudo git commit -m "encrypted data"
 Here are the some new changes which I'm making in this file.
