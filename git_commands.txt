@@ -44,5 +44,44 @@ sudo git status
   753  sudo git push origin master
   754  ls
   755  history
-
+ 887  cd /github-for-devops-workshop/
+  888  ls
+  889  vim git_commands.txt
+  890  sudo git pull origin master
+  891  cat git_commands.txt
+  892  sudo git branch
+  893  sudo git branch dev
+  894  sudo git branch
+  895  sudo git switch dev
+  896  vim this_is_from_dev.txt
+  897  sudo git status
+  898  sudo git add this_is_from_dev.txt
+  899  sudo git status
+  900  sudo git commit -m "added comment in this file"
+  901  sudo git status
+  902  sudo git switch master
+  903  ls
+  904  sudo git log
+  905  sudo git log --oneline
+  906  sudo git status
+  907  sudo git checkout dev
+  908  sudo git log --oneline
+  909  sudo git status
+  910  sudo git push origin dev
+  911  sudo git status
+  912  sudo git switch master
+  913  sudo git status
+  914  ls
+  915  sudo git pull origin master
+  916  ls
+  917  sudo git branch
+  918  sudo git fetch
+  919  sudo git branch
+  920  sudo git fetch
+  921  sudo git branch
+  922  sudo git switch stage
+  923  sudo git status
+  924  sudo git switch master
+  925  sudo git branch
+  926  history
 Here are the some new changes which I'm making in this file.
