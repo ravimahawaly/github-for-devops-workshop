@@ -84,4 +84,42 @@ sudo git status
   924  sudo git switch master
   925  sudo git branch
   926  history
+ sudo git status
+  928  ls
+  929  vim git_commands.txt
+  930  sudo git status
+  931  sudo git add git_commands.txt
+  932  sudo git status
+  933  sudo git commit -m "updated commands on branching"
+  934  sudo git push origin master
+  935  sudo git status
+  936  ls -a
+  937  cd .git
+  938  ls
+  939  cd hooks
+  940  ls
+  941  vim pre-commit
+  942  cd ../..
+  943  ls
+  944  vim demo.py
+  945  sudo git status
+  946  sudo git add demo.py
+  947  sudo git commit -m "added code"
+  948  #pip install flake8
+  949  sudo git status
+  950  pip install flake8
+  951  sudo pip install flake8
+  952  sudo apt install python3-pip
+  953  sudo pip install flake8
+  954  sudo apt install flake8
+  955  ls
+  956  sudo flake8 demo.py
+  957  cat git_commands.txt
+  958  history
+  959  vim ./git/hooks/pre-commit
+       files=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
+
+       sudo flake8 $files
+        :wq!
+  
 Here are the some new changes which I'm making in this file.
