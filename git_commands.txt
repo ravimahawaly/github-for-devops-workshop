@@ -45,3 +45,4 @@ sudo git status
   754  ls
   755  history
 
+Here are the some new changes which I'm making in this file.
